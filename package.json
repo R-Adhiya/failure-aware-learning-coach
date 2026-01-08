@@ -10,7 +10,7 @@
     "client": "cd client && npm start",
     "build": "node build.js",
     "install-all": "npm install && cd client && npm install",
-    "postinstall": "cd client && npm install && npm run build"
+    "vercel-build": "npm install && cd client && npm install && npm run build"
   },
   "dependencies": {
     "express": "^4.18.2",
